@@ -1,0 +1,93 @@
+body{
+	font-family:Georgia;
+	font-size: 36px;
+	color:#443f3f;
+}
+.inputname{
+	width: 50%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-family:Georgia;
+	font-size: 16px;
+	color:#443f3f;
+}
+.startbutton{
+	background-color: #4CAF50;
+    border: solid 1px #205e27;
+    color: #443f3f;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 50%;
+	margin-top:40px;
+	
+}
+.startbutton:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.error{
+	font-family:Georgia;
+	color:#026dcc;
+	font-size:16px;	
+}
+div.container{
+	padding-top:50px;
+	padding-bottom:50px;
+	margin: auto;
+    max-width:600px;	
+	text-align: center;
+	-webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
+div.atbildeleft{
+	width:50%;
+	float: left;
+	margin-top:5px;	
+	border:solid 1px black;
+	padding-top:15px;
+	padding-bottom:15px;
+	font-size:20px;
+}
+div.atbildeleft:hover{
+	cursor: pointer;
+}
+div.atbilderight{
+	margin-top:5px;	
+	border:solid 1px black;
+	padding-top:15px;
+	padding-bottom:15px;
+	font-size:20px;
+}
+div.atbilderight:hover{
+	cursor: pointer;
+}
+div.barout{
+	float:right;
+	margin-top:20px;
+	width:100%;	
+	background-color: #ddd;
+}
+div.barin{
+	font-size:18px;
+	height: 30px;
+	background-color: #4CAF50;	
+	text-align: center;
+	vertical-align: middle;
+	line-height: 30px;
+}
+
+@media screen and (max-width: 500px) {
+	div.atbildeleft{
+		width: 100%;
+		float: none;
+	}
+	div.atbilderight{
+		width: 100%;
+	}
+}
